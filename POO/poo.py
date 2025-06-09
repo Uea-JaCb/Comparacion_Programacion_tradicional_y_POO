@@ -4,11 +4,11 @@ class ClimaDiario:
         self.__temperaturas = []
 
     def ingresar_temperatura(self, temp):
-        """Método para agregar una temperatura a la lista."""
+        """Metodo para agregar una temperatura a la lista."""
         self.__temperaturas.append(temp)
 
     def calcular_promedio(self):
-        """Método para calcular el promedio semanal de temperaturas."""
+        """Metodo para calcular el promedio semanal de temperaturas."""
         return sum(self.__temperaturas) / len(self.__temperaturas) if self.__temperaturas else 0
 
 
