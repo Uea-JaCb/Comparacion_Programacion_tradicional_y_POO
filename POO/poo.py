@@ -17,7 +17,7 @@ def main():
     clima = ClimaDiario()
 
     for i in range(7):
-        temp = float(input(f"Ingrese la temperatura del día {i + 1}: "))
+        temp = float(input(f"Por favor ingrese la temperatura del día {i + 1}: "))
         clima.ingresar_temperatura(temp)
 
     promedio = clima.calcular_promedio()
